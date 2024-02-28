@@ -1,0 +1,29 @@
+.mainContainer
+{
+    overflow: hidden;
+}
+
+.title
+{
+    margin: 32px 12px;
+}
+
+.container
+{
+    padding: 0 128px;
+    display: flex;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1100px)
+{
+    .container
+    {
+        padding: 0 48px 48px;
+        flex-direction: column;
+    }
+}
